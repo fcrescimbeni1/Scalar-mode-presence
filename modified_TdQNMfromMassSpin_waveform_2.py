@@ -79,3 +79,5 @@ def TdQNMfromMassSpin_SD_total(**args):
     #waveform with 221 mode as 220 scalar
     hp, hc = wf0(final_mass=final_mass, final_spin=final_spin, amp220=amp220, amp221=amp221, phi220=phi220, phi221=phi221, distance=distance, inclination=inclination, lmns=lmns, f_lower=f_lower, delta_t=delta_t, delta_f221=delta_f221, delta_tau221=delta_tau221, harmonics=harmonics, toffset=toffset, t_final=t_final, f_ref=f_ref)
     return hp, hc
+
+hp, hc = TdQNMfromMassSpin_SD_total(approximant="test", final_mass=100, final_spin=0.6, amp220=0.15, amp221=0.42, phi220=2, phi221=0.23, distance=10, inclination=0.26, lmns=["222"], f_lower=20, delta_t=1/(4096*4), toffset=0.002, f_ref=20, t_final=2, harmonics="spheroidal")
