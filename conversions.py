@@ -152,5 +152,16 @@ for i in range(0,1000,1):
     im_om=np.imag(omega)
     f.write(str(a_i) + '\t' + str(re_om) + '\t' + str(im_om) + '\n')
     
+f = open("sequence_vector.txt", "w")
+
+#scalar mode
+grav_220_v = qnm.modes_cache(s=1,l=2,m=2,n=1)
+
+for i in range(0,1000,1):
+    a_i = i/1000
+    omega, A, C = grav_220_v(a=a_i)
+    re_om=np.real(omega)
+    im_om=np.imag(omega)
+    f.write(str(a_i) + '\t' + str(re_om) + '\t' + str(im_om) + '\n')
     
 
