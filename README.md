@@ -1,6 +1,6 @@
 Folders:
 
-_Injection and Recovery -> current injection simulation jobs;
+-Injection and Recovery -> current injection simulation jobs;
 
 -Injection_tests -> old tests used to calibrate the custom waveforms;
 
