@@ -1,6 +1,6 @@
 Folders:
 
--Injection_tests -> files to test TdQNMFromFinalMassSpin waveform and modified waveforms;
+-Injection_tests -> old tests used to calibrate the custom waveforms.
 
 -Jobs -> injection with GR and recovering scalar/vector (and viceversa);
 
