@@ -1,4 +1,4 @@
-t_{off}$ (ms)    BF(scalar)-BF(GR)    BF(GR+scalar)-BF(GR)
+t_{off}$ (ms)    BF(GR0+s)-BF(GR01)    BF(GR01+s)-BF(GR01)
 0                    2.50                    2.87
 1                    0.71                    0.92
 2                    0.35                    0.53
